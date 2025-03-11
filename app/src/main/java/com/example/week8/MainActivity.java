@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    @SuppressLint("SetTextI18n")
     @Override
     public void onClick(View v) {
         num1 = getIntegerFromEditText(inputFirstNumber);
