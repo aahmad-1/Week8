@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public int getIntegerFromEditText(EditText editText) {
         if (editText.getText().toString().isEmpty()) {
-            Toast.makeText(this, "Enter number", Toast.LENGTH_SHORT).show();
             return 0;
         } else {
             return Integer.parseInt(editText.getText().toString());
